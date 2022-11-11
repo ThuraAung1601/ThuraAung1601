@@ -1,8 +1,8 @@
 ### Hi there 👋
 
-Hi, I'm Thura Aung - an undergrad student and a ml engineer.
+Hi, I'm Thura Aung - NLP engineer and Machine Learning enthusiast.
 
-My interests revolve around nautral language processing, computer vision, and AI ethics.
+My interests revolve around low-resource nautral language processing, computer vision, and AI ethics.
 <br/>
 In leisures, I usually write blogs about Algorithms, Approaches and Applications of AI, in Burmese Language.
 <br />
