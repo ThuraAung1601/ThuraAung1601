@@ -12,6 +12,6 @@ I mainly code in Python 🐍
 <br />
 Apart from Python, programming languages I mainly use are C++ and Java. 
 <br />
-You can contact me via thuraaung.ai.mdy@gmail.com and [LinkedIn](https://www.linkedin.com/in/thura-aung)
+You can contact me via thuraaung.ai.mdy@gmail.com, [LinkedIn](https://www.linkedin.com/in/thura-aung) and [Homepage](https://sites.google.com/view/thura-aung/).
 <br />
 I speak Burmese and English.
