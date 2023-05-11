@@ -1,0 +1,298 @@
+% This template is designed to offer an aesthetically pleasing resume that adheres to a formal and institutional tone, making it suitable for applications to companies and research centers requiring a high degree of professionalism. Navy blue has been chosen as the primary color to align with these objectives.
+% The code is well-documented and annotated, allowing users to easily customize and modify it according to their needs. Please note that the template's content is meant to be humorous and should not be taken literally. We are grateful for your interest in using this template for your professional endeavors.
+% Author: Christian Maria Giannetti
+
+%----------------------------------------------------------------------------------------
+%  Packages And Other Document Configurations
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+% Document margins
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
+
+% Color and hyperlink packages
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+% Footnote and margin adjustment packages
+\usepackage{footnote}
+\usepackage{changepage}
+
+% Fontawesome package for icons
+\usepackage{fontawesome}
+
+% Tabularx package for custom tables
+\usepackage{tabularx}
+
+% Define navyblue color
+\definecolor{navyblue}{RGB}{0,54,123}
+
+%----------------------------------------------------------------------------------------
+%   Customizations
+%----------------------------------------------------------------------------------------
+
+% Define italicitem, bolditem, and plainitem commands
+\newcommand{\italicitem}[1]{\item{\textit{#1}}}
+\newcommand{\bolditem}[1]{\item{\textbf{#1}}}
+\newcommand{\plainitem}[1]{\item{#1}}
+
+% Define user-friendly link command for hyperlinks
+\newcommand{\link}[2]{{\href{#1}{#2}}}
+
+\newcommand{\entry}[2]{#1 & #2 \tabularnewline} % Defines an entry with two arguments: #1 for the first column and #2 for the second column
+
+%----------------------------------------------------------------------------------------
+%   Define envsection command for defining a new environment section
+%----------------------------------------------------------------------------------------
+
+\newcommand{\tableEnv}[2]{%
+  \begin{rSection}{#1} % Begin rSection with the given name
+    \begin{adjustwidth}{0.0in}{0.1in} % Set the left and right margins
+      \begin{tabularx}{\linewidth}{@{} >{\bfseries}l @{\hspace{6ex}} X @{}}
+        #2 % Print the content inside the tabularx environment
+      \end{tabularx}
+    \end{adjustwidth}
+  \end{rSection}
+}
+
+%----------------------------------------------------------------------------------------
+%   Begin document
+%----------------------------------------------------------------------------------------
+
+% Set name with navyblue color
+\name{\color{navyblue} Thura Aung}
+
+\begin{document}
+
+\printPersonalInfo{
+  \personalInfo{\tag{LinkedIn}\info{linkedin.com/in/thura-aung/}} 
+  \personalInfo{\tag{Github}\info{github.com/ThuraAung1601/}}
+  
+  \personalInfo{\tag{E-mail}\info{thuraaung.ai.mdy@gmail.com} 
+  
+  \infoSeparator\tag{Telephone number}\info{(+95)9972960063}}
+  \personalInfo{\tag{Portfolio}\info{sites.google.com/view/thura-aung/} \infoSeparator\tag{Date of birth}\info{01-06-2001}}
+}
+
+%----------------------------------------------------------------------------------------
+%   Education section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Profile}
+ Lab member of Language Understanding Lab., Myanmar. Participating in several open-source AI projects. Interested in the research area of Computer Science (CS), Natural Language Processing (NLP), and Linguistics. Enthusiastic, responsible, and committed to working on time with dedication.
+\end{rSection}
+    
+%----------------------------------------------------------------------------------------
+%   Education section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+    
+    % Bachelor's degree entry
+    \begin{rSubsectionNoBullet}{\bf Bachelor of Engineering}{Technological University (Kyaukse)}{Information Technology}{2017 - 2019}
+        \item{1st Year GPA: \textit{\textbf{3.85/5.0}}}
+        \item{2nd Year GPA: \textit{\textbf{\textbf{4.57/5.0}}}}
+        \item{Discontinued after Covid-19 Pandemic}
+        \item{Co-founder at IT Club, Debater at Debate Club.}
+        
+    \end{rSubsectionNoBullet}
+    
+    % High School diploma entry
+    \begin{rSubsectionNoBullet}{\bf High School}{The Conqueror Academy of Education}{High School Diploma}{2014 - 2017}
+        \item{Matriculation Exam total marks: \textit{\textbf{451/600}}.}
+        \item{Distinctions in \textbf{English} and \textbf{Mathematics}}
+        \item{Specialised in Maths, Physics, Chemistry, and Biology.}
+    \end{rSubsectionNoBullet}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   Work experience section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Experiences}
+
+    \begin{rSubsection}{Google Developer Group Yangon}{April 2023 - Present}{Volunteer Math Mentor}{Remote, Part-time}
+        \item Briefing and mentoring Coursera courses to the students.
+        \item Discuss the real-world application of Mathematical methods.
+        \item \textbf{Technologies:} Python, Numpy, Scipy.
+        \item {\textbf{Soft Skills:} Presentation, Mentoring skills.}
+    \end{rSubsection}
+
+    % First work experience entry
+    \begin{rSubsection}{Language Understanding Laboratory}{Jan 2022 - Present}{Research Assistant}{Remote, Part-time}
+        \item Contribute to Data Collection for low-resource NLP tasks.
+        \item Corpus Building for Myanmar Sentence Tokenization, OCR.
+        \item Currently active in OCR and ASR research teams.
+        \item \textbf{Technologies:} Python, Perl, Scipy, Scikit-learn, Tensorflow, Marian, Moses, Kaldi, Tesseract.
+        \item {\textbf{Soft Skills:} Research, Teamwork, Time Management, Communication, Academic Writing skills.}
+    \end{rSubsection}
+    
+    % Second work experience entry
+    \begin{rSubsection}{Microsoft Learn Student Ambassadors}{Sept 2021 - Present}{Beta Student Ambassador}{Remote, Part-time}
+        \item \href{https://imgur.com/gallery/yHH1mQK}{[\underline{Certificate}]} \href{https://studentambassadors.microsoft.com/en-US/studentambassadors/profile/1ee3ce6d-2f73-4327-9a99-1b7f980a0154}{[\underline{Profile}]}
+      \item Promoted from Alpha Student Ambassador (\textit{Jan 2021 - Sept 2021.)}
+        \item Organize and host events as a student ambassador
+        \item Mentor other students and student ambassadors
+        \item \textbf{Soft Skills:} Community Building, Cooperation, Negotiation, Communication, Organization skills.
+    \end{rSubsection}
+    
+    % Third work experience entry
+    \begin{rSubsection}{Omdena}{Oct 2021 - Jan 2022}{Lead ML Engineer}{Remote, Seasonal}
+      \item \href{https://omdena.com/projects/ethnicity-awareness/}{[\underline{Project}]}
+    \href{https://imgur.com/gallery/U67M3dM}{[\underline{Certificate}]}
+      \item Lead a team of 10 ML Engineers for Face Detection for feature extraction.
+        \item Cooperated and Brainstormed with other task leaders for the system design.
+        \item Reported to the Product Manager directly.
+        \item Image Classification, Face Detection, Active Learning.
+        \item \textbf{Technologies:} Bash, Python, Tensorflow, OpenCV, Scikit-learn.
+         \item \textbf{Soft Skills:} Community Building, Cooperation, Communication, Organization skills.
+    \end{rSubsection}
+
+     % Fourth work experience entry
+    \begin{rSubsection}{Thate Pan Hub}{June 2021 - Sept 2021}{AI Curriculum Developer}{Remote, Part-time}
+      \item \href{https://thatepanhub.org/}{[\underline{Website}]}
+    \href{https://imgur.com/gallery/3AiGljT}{[\underline{Certificate}]}
+       \item Co-designed AI Curriculum for Kids and Teenagers.
+        \item Trained volunteer teachers with the designed curriculum.
+        \item \textbf{Soft Skills:} Cooperation, Curriculum development, and Communication skills.
+    \end{rSubsection}
+
+       % Fifth work experience entry
+    \begin{rSubsection}{Alex Snow School}{April 2020 - Jan 2021}{Volunteer Mentor}{Remote, Part-time}
+       \item Briefing and mentoring Coursera courses to the students.
+        \item Mentoring and assisting in the assignments.
+        \item \textbf{Soft Skills:} Classroom management, Mentoring, and Presentation skills.
+    \end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%   Extracurricular activities section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Research Experiences}
+
+% First extracurricular entry
+ \textbf{Workshop Presentation} 
+ \begin{itemize}
+ \item \textbf{Thura Aung}, Ye Kyaw Thu and Zar Zar Hlaing, mySentence: Sentence Segmentation for Myanmar Language using Neural Machine Translation Techniques”, 4th joint Workshop on NLP/AI R\&D, iSAI-NLP-AIOT 2022, Chiang Mai, Thailand, 5 November 2022. \href{https://docs.google.com/presentation/d/1fm-yRGZVuR2sOpK8M4ldtiLB7QU2T96a0GofIaVyFC0/present?slide=id.p}{[\underline{Powerpoint}]}
+\end{itemize}
+  
+ \textbf{Working Papers} 
+ \begin{itemize}
+ \item mySentence: Sentence Segmentation for Myanmar Language using Neural Machine Translation Approach (joint with Ye Kyaw Thu and Zar Zar Hlaing, \textbf{UNDER REVIEW}).
+\item Neural Sequence Labeling based Sentence Segmentation for Myanmar Language (joint with Ye Kyaw Thu and Thepchai Supnithi, \textbf{UNDER REVIEW}).
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Teaching Experiences}
+
+% First extracurricular entry
+ \begin{itemize}
+ \item Thura Aung, “\textbf{Introduction to Computer Vision using Python}”, Youth Career Institute, Online, December 2021 - January 2022. \href{https://github.com/ThuraAung1601/Computer-Vision-Adventures}{[\underline{Materials}]}
+\end{itemize}
+   \begin{itemize}
+ \item Thura Aung, “\textbf{Introduction to Vector Spaces}”, Alex Snow School, Online, 23 December 2020.  [\href{https://youtu.be/BKidT_2ZW88}{\underline{Youtube}}]
+ \item Thura Aung, Maung Noor Islam, “\href{}{\textbf{AI in society and Microsoft Azure Cognitive Services}}”, Microsoft Learn Student Ambassadors, Online, 18 September 2021. [\href{https://youtu.be/ZITONCjeKD8}{\underline{Youtube}}]
+ \item Thura Aung, “\textbf{Big Brother is watching you: Ethical Problems of Computer Vision Technologies}”, Simbolo IT School, Online, 7 July 2021. [\href{https://youtu.be/MaEO-AArXwc}{\underline{Youtube}}]
+ \item Thura Aung, “\textbf{Walkthrough on Intermediate Machine Learning Kaggle Courses}”, Google Developers Group, Yangon, Online, 25, June 2022. [\href{https://www.youtube.com/watch?v=YjO2ASwOlTU&list=PLGkRDeUNLu6ZO2i44iaaW7HRo3bu5Tsln&index=4&t=3s}{\underline{Youtube}}]
+\end{itemize}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+% certificate section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Training Certificates}    
+\begin{enumerate}
+    \item Machine Learning Engineer Nanodegree, Udacity [\href{https://graduation.udacity.com/confirm/CECLKGF5}{\underline{Certificate}}] [\href{https://github.com/ThuraAung1601/Machine-Learning-Engineering-Nanodegree}{\underline{Github}}]
+    \item Introduction to Responsible AI Algorithm Design, LinkedIn [\href{https://www.linkedin.com/learning/certificates/45762288c64f35ab8b3788a9b6f2f3fb851b8869308f5b2c3fbb4fb570234031}{\underline{Certificate}}]
+    \item Machine Learning, Stanford Online Coursera [\href{https://www.coursera.org/account/accomplishments/certificate/UR5GRU4TVGG5}{\underline{Certificate}}] (with Financial aid)
+    \item Maths for Machine Learning, Imperial College London Coursera [\href{https://www.coursera.org/account/accomplishments/specialization/certificate/HLKJS7S6CL5U}{\underline{Certificate}}] (with Financial aid)
+    \item Deep Learning Specialization, DeepLearning.AI [\href{https://www.coursera.org/account/accomplishments/specialization/certificate/XXKRZ3HYNUL5}{\underline{Certificate}}] (with Financial aid)
+    \item Tensorflow Developer Specialization, DeepLearning.AI [\href{https://www.coursera.org/account/accomplishments/specialization/certificate/28ZKMPT9UDHA}{\underline{Certificate}}] (with Financial aid)
+    \item Machine Translation, Karlsruhe Institute of Technology (KIT) [\href{https://www.coursera.org/account/accomplishments/certificate/4PYT8DEAC2CG}{\underline{Certificate}}]
+\end{enumerate}
+\end{rSection}
+
+
+%----------------------------------------------------------------------------------------
+% Most relevant projects section
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Selected Projects}    
+\begin{enumerate}
+    \item mySentence: Sentence Segmentation Corpus and models for Myanmar language [\href{https://github.com/ye-kyaw-thu/mySentence}{\underline{Github}}]
+    \item Covid-19 Recognition with Chest X-ray Images using ML and DL Methods [\href{https://github.com/ThuraAung1601/Deep-Chest-X-ray-Covid19-Classification}{\underline{Github}}]
+    \item ConvNet-based Drowsiness Detection and Alert System [\href{https://github.com/ThuraAung1601/drowsiness-detection}{\underline{Github}}]
+    \item Synthetic Myanmar-Thai parallel corpus using Google Translate [\href{https://github.com/ThuraAung1601/Synthetic-myanmar-thai-parallel-corpus}{\underline{Github}}]
+    \item myTypo: Typographic Error Simulator for Myanmar language [\href{https://github.com/ThuraAung1601/myTypo}{\underline{Github}}]
+    \item mySpellCorrect: Statistical Word Spelling Correction for Myanmar language [\href{https://github.com/ThuraAung1601/mySpellCorrect}{\underline{Github}}]
+    \item Retrieval-based Covid-19 TF-IDF Bilingual Chatbot [\href{https://github.com/ThuraAung1601/AskCovidDrBot}{\underline{Github}}]
+    \item mmCRFSeg: CRF-based Word Segmentation tool for Myanmar language [\href{https://github.com/ThuraAung1601/mmCRFseg}{\underline{Github}}]
+    \item Burmese Handwritten Digit Recognition using ConvNets [\href{https://github.com/ThuraAung1601/BHDD-using-basic-CNN}{\underline{Github}}]
+    \item Automatic Myanmar News Classification System [\href{https://github.com/ThuraAung1601/Automatic-Myanmar-News-Classification}{\underline{Github}}]
+    \item Fake News Classification using Traditional Machine Learning models [\href{https://github.com/ThuraAung1601/Fake-news-classification-using-machine-learning-models}{\underline{Github}}]
+    \item Ceretai: Using Computer Vision to Detect Ethnicity in Videos and Improve Ethnicity Awareness
+    \item Human Detection using HOG Features trained on SVM [\href{https://github.com/ThuraAung1601/human-detection-hog}{Github}]
+\end{enumerate}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+% Personal skills section
+%----------------------------------------------------------------------------------------
+
+\tableEnv{Skills}{
+    \entry{Programming Languages/Tools}{C++, Java, Python, Perl, \LaTeX, Tensorflow, OpenCV, Marian, Moses, Kaldi, Tesseract.} \\
+    \entry{Interpersonal Skills}{Community Building, Cooperation, Negotiation, Communication, Organization skills, Research, Teamwork, Time Management, Academic Writing skills.}
+    
+}
+
+%----------------------------------------------------------------------------------------
+% Language proficiencies section
+%----------------------------------------------------------------------------------------
+
+\tableEnv{Language Proficiencies}{
+    \entry{Burmese}{Native Language}
+    \entry{English}{Duolingo: Overall 120/160 \href{https://certs.duolingo.com/dff22596847057dc88c4a579c28f19d4}{\underline{[Report]}}, EF SET: 72/100 C2-Proficient \href{https://www.efset.org/cert/jEKJVy}{\underline{[Report]}}}
+}
+
+%----------------------------------------------------------------------------------------
+% Memberships section
+%----------------------------------------------------------------------------------------
+
+\tableEnv{Achievements}{
+    \entry{Championship Winner}{Second Campus Debate Tournament, TU(Kyaukse), 2019. [\href{https://imgur.com/gallery/tUJeTdM}{\underline{[Photo]}}}
+    \entry{Best Project Award}{Simbolo AI Project Challenge. [\href{https://imgur.com/gallery/IsJdIhc}{\underline{[Certificate]}}}
+}
+
+%----------------------------------------------------------------------------------------
+% ref section
+%----------------------------------------------------------------------------------------
+\begin{rSection}{References}
+
+\begin{rSubsectionNoBullet}{\bf Prof. Ye Kyaw Thu}{}{Lab. Leader, Language Understanding Lab., Myanmar.}{}
+\italicitem{Visiting Professor, NECTEC, Thailand.}
+\item{Email: yktnlp@gmail.com}         
+\item{Homepage: https://sites.google.com/site/yekyawthunlp/}
+\end{rSubsectionNoBullet}
+
+\begin{rSubsectionNoBullet}{\bf Prof. Khaing Myat Mon}{}{Professor and Head}{}
+\italicitem{Department of Information Technology, Technological University (Kyaukse).}
+\item{Email: khaingmyatmon2018@gmail.com}
+\end{rSubsectionNoBullet}
+
+\begin{rSubsectionNoBullet}{\bf Dr. Mulugheta T. SOLOMON}{}{Lead Product Manager, Omdena}{}
+\item{Email: st.mulugheta@gmail.com}         
+\item{LinkedIn: https://www.linkedin.com/in/mulugheta-t-solomon/}
+\end{rSubsectionNoBullet}
+
+\end{rSection}
+
+\end{document}
