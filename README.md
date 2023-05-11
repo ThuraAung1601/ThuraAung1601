@@ -1,17 +1,11 @@
 ### Hi there 👋
 
-Hi, I'm Thura Aung - NLP engineer and Machine Learning enthusiast.
-
-My interests revolve around low-resource nautral language processing, computer vision, and AI ethics.
-<br/>
-In free times, I usually write blogs about Algorithms, Approaches and Applications of AI, in Burmese Language.
+Lab member of Language Understanding Lab., Myanmar. Participating in several open-source AI
+projects.
 <br />
-Check out my articles on [Medium](thuraaung-ai.medium.com)
-
-I mainly code in Python 🐍
+Interested in the research area of Computer Science (CS), Natural Language Processing
+(NLP), and Linguistics.
 <br />
-Apart from Python, programming languages I mainly use are C++ and Java. 
+Enthusiastic, responsible, and committed to working on time with dedication.
 <br />
-You can contact me via thuraaung.ai.mdy@gmail.com, [LinkedIn](https://www.linkedin.com/in/thura-aung) and [Homepage](https://sites.google.com/view/thura-aung/).
-<br />
-I speak Burmese and English.
+Contact me via thuraaung.ai.mdy@gmail.com, [LinkedIn](https://www.linkedin.com/in/thura-aung) and [Homepage](https://sites.google.com/view/thura-aung/).
