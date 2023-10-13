@@ -3,7 +3,7 @@
 Lab member of Language Understanding Lab., Myanmar. Participating in several open-source AI
 projects.
 <br />
-Interested in the research area of Computer Science (CS), Natural Language Processing
+Interested in the research area of Natural Language Processing
 (NLP), and Linguistics.
 <br />
 Enthusiastic, responsible, and committed to working on time with dedication.
